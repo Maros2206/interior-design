@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+    background: rgb(98, 0, 128);
+    color: white;
+    height: 100%;
+    width: 150px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    text-align: center;
+}
+h1{
+    color: black;
+}
+.part{
+    color: rgb(98, 0, 128);
+    margin-bottom: 20px;
+}
+.main{
+    margin-left: 30%;
+    text-align: center;
+}
+.menu-item{
+    text-align: left;
+}
+.menu-item:hover{
+    background: white;
+}
+a{
+    color: white;
+}
+.menu-item:hover a{
+    color: black;
+}
+hr{
+    background: purple;
+    height: 5px;
+    border-radius: 5px;
+}
+img{
+    width: 45%;
+    margin: 1%;
+    border-radius: 10px;
+    opacity:0.7;
+}
+img:hover{
+    opacity:1;
+}
+span{
+    color: red;
+
+}
+.designers-name{
+    font-weight: 600;
+}
+.service{
+    margin-bottom: 20px;
+}
+.cards{
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+.img-cards{
+    width: 100%;
+}
+.text-card{
+    border-radius: 10px;
+    background: rgb(218, 216, 216);
+    padding: 5px;
+    width: 100%;
+}
+.presentation{
+    color: grey;
+}
+.text{
+    text-align: left;
+    font-size: 10px;
+}
+.price{
+   
+}
+.packages-card{
+    width: 45%;
+    border-radius: 10px;  
+    text-align: center;  
+    display: inline-block;
+    border: 1px solid #000;
+    background: rgb(219, 214, 214);
+    margin: 5px;
+    
+}
+.packages-card-header{
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.packages-cards-body{
+    border-bottom: 1px solid rgb(92, 91, 91);
+    border-radius: 0 0 10px 10px ;
+    padding: 10px 0;
+}
+.first-card{
+    background: purple;
+}
+.second-card{
+    background: rgb(250, 79, 17);
+}
+.sign-up{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+.button-purple{
+    color: purple;
+    background: white;
+    border: none;
+}
+.button-purple:hover{
+    color: white;
+    background: purple;
+}
+.button-orange{
+    color: white;
+    background: rgb(247, 72, 8);
+    border: none;
+}
+.button-orange:hover{
+    color: rgb(250, 79, 17);
+    background: white;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-label{
+    
+}
+.contact-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-submit{
+    width: 100%;
+    background: purple;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.last{
+    width: 100%;
+    background: rgb(240, 216, 216);
+    margin: 30px 0 0 0;
+    padding: 30px;
+}
+.powered{
+    color: black;
+    text-align: right;
+}
+@media(max-width:576px){
+    .fixed{
+     height: auto;
+     width: 100%;
+     z-index: 10;
+     top: 0;
+     opacity: 0.8;
+    }
+    .menu-item{
+        text-align: center;
+    }
+    .main{
+        margin-top: 230px;
+        margin-left: 0;
+    }
+    img{
+        width: 86%;
+    }
+    .cards{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .packages-card{
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .contact-form{
+        padding: 10px;
+    }
+}
